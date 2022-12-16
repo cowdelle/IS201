@@ -5,8 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Elley Cowdell - DIY</title>
-    <link href="css/diyStyles.css" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="/css/diyStyles.css">
 </head>
+
+
 <body class="background">
     <h1 class="bold fontStyle divPos">Do It Yourself!</h1><br>
     <div>
@@ -26,7 +28,7 @@
             <li>stylesheet</li>
             <ul>
                 <li>style definitions</li>
-                <li>spcify font color</li>
+                <li>specify font color</li>
                 <li>specify font family</li>
                 <li>divs that are positioned and styled using my styles</li>
             </ul>
@@ -38,23 +40,33 @@
             </ol>
         </P>
     </div>
+
     <br>
     <br>
+
     <div>
         <h3 class="bold fontStyle divPos" id="html">HTML and CSS</h3>
         <p class="par">Here is a fun picture of me!</p>
         <img src="https://media-exp1.licdn.com/dms/image/C5603AQGJn6n01PecVg/profile-displayphoto-shrink_800_800/0/1635173583491?e=2147483647&v=beta&t=CenDsO0jguA9ndyjVRLjzg6k2N_ESHZDFqhCdS_fxDU" alt="Professional Photo of Elley">
     </div>
+
     <br>
     <br>
+
     <div>
         <p class="par">Now here is a video of me playing the piano!</p>
         <iframe width="560" height="315" src="https://www.youtube.com/embed/WJFNZlDeyMk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
     </div>
+
     <br>
     <br>
+
     <div>
         <h3 class="bold fontStyle divPos" id="tab">Tableau</h3>
+        <p>Here is a nice, interactive Tableau dashboard!</p>
+
+        <br>
+
         <div class='tableauPlaceholder' id='viz1671201578101' style='position: relative'>
             <noscript>
                 <a href='#'>
@@ -86,10 +98,41 @@
                     vizElement.parentNode.insertBefore(scriptElement, vizElement);
                 </script>
      </div>
-    
+
+    <br>
+    <br>
+    <br>
 
     <div>
-       <button class="center"><a class="center" href="index.html">Back to Professional Page!</a></button>
+        <style>
+        .container {
+          height: 100px;
+          position: relative;
+          border: 3px solid green;
+        }
+        
+        .vertical-center {
+          margin: 0;
+          position: absolute;
+          top: 50%;
+          -ms-transform: translateY(-50%);
+          transform: translateY(-50%);
+        }
+        .center {
+            margin: 0;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            -ms-transform: translate(-50%, -50%);
+            transform: translate(-50%, -50%);
+}
+        </style>
+        <div class="container">
+          <div class="vertical-center center">
+    <button>
+        <a href="index.html">Back to Professional Page!</a>
+    </button> </div>
+    </div>
     </div>
 </body>
 </html>
